@@ -16,7 +16,7 @@ async function getMounts(inputValue){
         console.log(data)
         for(i = 0; i <= data.results.length; i++){
             mountInfo.innerHTML +=
-            `<li><img id = "mount_image" src="${data.results[i].image}">
+            `<li><img height = "115px" width = "115px" id = "mount_image" src="${data.results[i].image}">
             <b>${data.results[i].name}</b>:
             ${data.results[i].description} ${data.results[i].enhanced_description}
             <br><b>Seats:</b>${data.results[i].seats}</br>

@@ -1,0 +1,2 @@
+Hello!!
+this is my first attempt at utilizing an API, the api for ffxiv is a lot bigger, but i shrunk it into just mounts. you can type a specific name, or letter and it will show anything matching that requirement. I appreciate any and all feedback. please let me know how i can improve. I appreciate your time!!
