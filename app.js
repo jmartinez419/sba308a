@@ -16,9 +16,13 @@ async function getMounts(inputValue){
         console.log(data)
         for(i = 0; i <= data.results.length; i++){
             mountInfo.innerHTML +=
-            `<li><img src="${data.results[i].image}">
+            `<li><img src="${data.results[i].icon}">
             <b>${data.results[i].name}</b>:
             ${data.results[i].description}
+            <br><b>Seats:</b>${data.results[i].seats}</br>
+            <br>This mount came out in patch ${data.results[i].patch}.</br>
+            Only <b>${data.results[i].owned}</b> have this mount currently.
+
             </li>`
             
         }
