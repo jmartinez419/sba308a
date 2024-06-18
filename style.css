@@ -1,0 +1,29 @@
+.search_bar{
+    display: flex;
+    justify-content: center;
+
+}
+
+.mount_list{
+    display: flex;
+    border: solid;
+    margin-top: 10%;
+    height: 80%;
+    background-color: white;
+
+}
+body{
+    background-image: url("https://wallpapers.com/images/hd/ff14-heavensward-knights-bycyxsqrved73dwp.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+#search-button{
+    
+}
+
+@media -sm {
+    
+}
