@@ -18,10 +18,10 @@ async function getMounts(inputValue){
             mountInfo.innerHTML +=
             `<li><img src="${data.results[i].icon}">
             <b>${data.results[i].name}</b>:
-            ${data.results[i].description}
+            ${data.results[i].description} ${data.results[i].enhanced_description}
             <br><b>Seats:</b>${data.results[i].seats}</br>
-            <br>This mount came out in patch ${data.results[i].patch}.</br>
-            Only <b>${data.results[i].owned}</b> have this mount currently.
+            This mount came out in patch ${data.results[i].patch}.</br>
+            Only <b>${data.results[i].owned}</b> of players have this mount currently.
 
             </li>`
             

@@ -14,10 +14,7 @@
 }
 body{
     background-image: url("https://wallpapers.com/images/hd/ff14-heavensward-knights-bycyxsqrved73dwp.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    
-    
+    background-size: 100%;  
 }
 
 #search-button{
